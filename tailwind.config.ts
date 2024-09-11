@@ -11,6 +11,17 @@ const config: Config = {
 			colors: {
 				background: 'var(--background)',
 				foreground: 'var(--foreground)',
+				'primary-shade-1': '#100c27',
+				'primary-shade-3': '#4839a3',
+				primary: '#6c5ae0',
+				highlight: '#f2bf4e',
+				'highlight-shade-3': '#f5ce7a',
+				'gray-100': '#212429',
+				'gray-80': '#636e7c',
+				'gray-70': '#7e8a98',
+				'gray-60': '#97a1ac',
+				'gray-30': '#cfd3d8',
+				'gray-10': '#f1f3f5',
 			},
 		},
 		fontFamily: {
