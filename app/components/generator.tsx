@@ -43,8 +43,8 @@ const Generator = () => {
 				newErrors.email = !emailRegex.test(value) ? 'Email inválido' : '';
 				break;
 			case 'phone':
-				const phoneRegex = /^\(\d{2}\)\s\d\s\d{4}-\d{4}$/;
-				newErrors.phone = !phoneRegex.test(value) ? 'Telefone inválido' : '';
+				const phoneRegex = /^[1-9]{2}[9]?[0-9]{8}$/;
+				newErrors.phone = !phoneRegex.test(value.replace(/\D/g, '')) ? 'Telefone inválido' : '';
 				break;
 			default:
 				break;
