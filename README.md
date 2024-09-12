@@ -22,3 +22,7 @@ O cartão de visitas gerado deve utilizar os dados do formulário da tela anteri
 O botão para download do cartão não deve ter ações e seu estado é desabilitado
 O botão para retornar à tela anterior deve limpar todos os campos do formulário
 O link de “faça um teste grátis no RD Station Marketing” deve apontar para https://app.rdstation.com.br/signup e abrir em uma nova aba.
+
+## Live
+
+O resultado está disponível em: [https://teste-tecnico-rd-station.vercel.app/]([url](https://teste-tecnico-rd-station.vercel.app/))
