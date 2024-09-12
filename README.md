@@ -25,4 +25,4 @@ O link de “faça um teste grátis no RD Station Marketing” deve apontar para
 
 ## Live
 
-O resultado está disponível em: [https://teste-tecnico-rd-station.vercel.app/]([url](https://teste-tecnico-rd-station.vercel.app/))
+O resultado está disponível em: https://teste-tecnico-rd-station.vercel.app/
