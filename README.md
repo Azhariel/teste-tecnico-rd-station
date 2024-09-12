@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Introdução
 
-## Getting Started
+Conheça o fantástico (e fictício) Gerador de Cartão de Visita do Resultados Digitais, uma aplicação que permite que os usuários criem cartões de visitas digitais. Nesta aplicação, os usuários devem preencher os campos da primeira página e assim que avançarem poderão visualizar seu novo cartão de visitas.
 
-First, run the development server:
+## Desenvolvimento
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Sua página deve ser responsiva, ou seja, adaptar-se aos diversos tamanhos de tela. No Figma estão as representações das telas com largura de 360px (mobile) e 1440px (desktop).
+Dica: Atente-se a largura máxima dos containers nestes tamanhos e como eles se comportam em tamanhos maiores e menores.
+Embora essa seja uma aplicação fictícia, fique atento às boas práticas de SEO, acessibilidade e HTML semântico.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Formulário
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+No formulário todos os campos são obrigatórios e exigem validações
+O campo nome só será válido se o valor tiver ao menos dois caracteres
+O campo email só será válido se o valor corresponder a um endereço de email
+O campo de telefone deve conter a máscara (99) 9999[9]-9999, com o dígito entre os colchetes sendo opcional, cobrindo assim números de telefones fixos e celulares nacionais com ou sem o primeiro dígito 9.
+Link política de privacidade: https://legal.rdstation.com/pt/privacy-policy/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Resultado
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O cartão de visitas gerado deve utilizar os dados do formulário da tela anterior
+O botão para download do cartão não deve ter ações e seu estado é desabilitado
+O botão para retornar à tela anterior deve limpar todos os campos do formulário
+O link de “faça um teste grátis no RD Station Marketing” deve apontar para https://app.rdstation.com.br/signup e abrir em uma nova aba.
