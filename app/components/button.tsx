@@ -3,7 +3,7 @@ import React from 'react';
 interface ButtonProps {
 	children: React.ReactNode;
 	disabled?: boolean;
-	onClick?: () => void;
+	onClick?: (e: React.FormEvent) => void;
 }
 
 const Button = ({ children, disabled, onClick }: ButtonProps) => {
