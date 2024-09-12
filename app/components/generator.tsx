@@ -124,7 +124,9 @@ const Generator = () => {
 						<form>
 							<div className='flex flex-col flex-grow text-body-lg gap-8 min-w-0'>
 								<div className='flex flex-col'>
-									<label htmlFor='name'>Nome*</label>
+									<label htmlFor='name' className='text-white'>
+										Nome*
+									</label>
 									<input
 										type='text'
 										id='name'
@@ -137,7 +139,9 @@ const Generator = () => {
 								</div>
 								<div className='flex flex-1 mb-2 justify-between lg:gap-12'>
 									<div className='flex flex-col w-2/5 lg:w-1/2'>
-										<label htmlFor='phone'>Telefone*</label>
+										<label htmlFor='phone' className='text-white'>
+											Telefone*
+										</label>
 										<input
 											type='tel'
 											id='phone'
@@ -150,7 +154,9 @@ const Generator = () => {
 									</div>
 
 									<div className='flex flex-col w-2/5 lg:w-1/2'>
-										<label htmlFor='email'>E-mail*</label>
+										<label htmlFor='email' className='text-white'>
+											E-mail*
+										</label>
 										<input
 											type='text'
 											id='email'
@@ -164,12 +170,12 @@ const Generator = () => {
 								</div>
 							</div>
 							<Button onClick={handleSubmit}>{'GERAR CARTÃO GRÁTIS →'}</Button>
-							<ul className='list-disc list-inside mt-8'>
+							<ul className='list-disc list-inside mt-8 text-white'>
 								<li>Ao preencher o formulário, concordo * em receber comunicações de acordo com meus interesses.</li>
 								<li>Ao informar meus dados, eu concordo com a Política de privacidade.</li>
 							</ul>
 							<br />
-							<p>* Você pode alterar suas permissões de comunicação a qualquer tempo.</p>
+							<p className='text-white'>* Você pode alterar suas permissões de comunicação a qualquer tempo.</p>
 						</form>
 					)}
 				</div>
